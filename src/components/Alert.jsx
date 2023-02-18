@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 function Alert(props) {
   const {name ='', closeAlert = Function.prototype}= props;
