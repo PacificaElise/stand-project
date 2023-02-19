@@ -5,7 +5,7 @@ function Header() {
     <nav className='grey darken-3'>
       <div className='nav-wrapper'>
         <a
-          href='!#'
+          href='/'
           className='brand-logo'
         >
           Shop's Stand

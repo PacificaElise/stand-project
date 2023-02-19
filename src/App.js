@@ -1,4 +1,5 @@
 import React from 'react';
+import { ContextProvider } from './contex';
 
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
@@ -8,7 +9,9 @@ function App() {
   return (
     <>
       <Header />
-      <Shop />
+      <ContextProvider>
+        <Shop />
+      </ContextProvider>
       <Footer />
     </>
   );
